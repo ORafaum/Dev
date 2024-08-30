@@ -1,0 +1,4 @@
+-Css é dividido em duas sessões
+Seletor                 Declaração
+h1          {color:blue; font-size:12px;}
+        Propriedade:Valor; Propriedade:Valor

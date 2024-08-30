@@ -1,0 +1,17 @@
+.lista{
+    list-style: upper-alpha;
+    font-size: 30px;
+    color: indigo;
+    width: fit-content;
+}
+.lista li:nth-child(even){
+    background-color: aqua;
+}
+
+.lista li:nth-child(odd){
+    background-color: crimson;
+}
+
+.lista li:hover{
+    font-weight: bolder;
+}

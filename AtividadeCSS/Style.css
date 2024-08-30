@@ -1,0 +1,90 @@
+#Desgraca {text-align: center;}
+.texto {color: aliceblue;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000;
+    margin: 10px; /* Margem */
+    padding: 20px; /*preenchimento do elemento dentro da div*/
+    text-align: center;
+    
+    width: fit-content;
+    
+}
+
+.box{
+    
+    /*Usei o método shorthand que diminui todas declarações ali embaixo*/
+    /*
+    background-color: black;
+    background-image:url("Imagens/calamityterraria.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll; */   
+    margin: 5px;
+    padding: 100px;
+    border: #fff;
+    width:auto;
+    background:#2c2c2c url("Imagens/calamityterraria.png") no-repeat center top scroll ;
+    margin: auto;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{/*Borda roxa no topo da página*/
+    padding: 20px 50%; /*preenchimento do elemento dentro da div*/
+    margin-bottom: 10px;
+    border: #000;
+    width:fit-content;
+    background-color:rgb(44, 0, 95);
+
+}
+.summ{
+    position: unset;
+    float: left;
+    width: 120px;
+    height: 850px;
+    margin-left: 1%;
+    border:1px solid #cc5a0e;
+    border-radius: 1px;
+}
+.content{
+    width:fit-content;
+    height: auto;
+    margin-left: 8.5%;
+    border:1px solid #cc5a0e;
+    
+}
+.leftinfobox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tirica{/*Bloco de texto esquerda 1*/
+    
+width: auto;
+height: auto;
+margin-left: 1%;
+border:3px solid #bb401b;
+border-radius: 15px;
+background-color: #00000062;
+}
+
+body {
+    
+    background:#2c2c2c ; 
+    /*Usei o método shorthand que diminui todas declarações ali embaixo*/
+    /*
+    background-color: black;
+    background-image:url("Imagens/calamityterraria.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll; */   
+}
+#list {text-decoration-line: underline;}
+
+.boxheader{
+    
+    
+}

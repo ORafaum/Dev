@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta livro</title>
+</head>
+<body>
+    <script>
+        /*let exeObj={
+            nr: 500,
+            str: "Palavra"
+        };
+        console.log(exeObj)*/
+        var livro = new Object();
+        livro.titulo="A Bela e a Adormecida";
+        livro.autor="Neil Gaiman";
+        livro.editora="Rocco Jovens Leitores";
+        livro.anoPublicacao=2015;
+        livro.edicao="1ª";
+        livro.paginas=72;
+        livro.preco="R$ 30,00";
+        livro.frete= function(ceporigem, cepdestino,peso){
+            var valorFrete=" ";
+            //script do calculo frete
+            return valorFrete;
+        }
+        livro.capitulo1="Era o reino mais próximo";
+        livro.capitulo2="A rainha acordou cedo";
+        livro.capitulo3="Os três anões emergiram";
+        livro.capitulo4="-Dormindo? - perguntou a rainha";
+        livro.capitulo5="Ela cavalgou um dia inteiro";
+        livro.capitulo6="O castelo na Floresta de Acaire";
+        
+        var nomeAutor= livro.autor;
+        var nomeEditora=livro.editora;
+        alert(`Autor: `+nomeAutor+"\nEditora: "+nomeEditora);
+    </script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Loop for usamos para quando sabemos as quantidades que devem ser repetidos
+
+While é para uma repetição que não sabemos exatamente quantas vezes serão feitas
